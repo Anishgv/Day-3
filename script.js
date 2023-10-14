@@ -32,8 +32,7 @@ request.onload= function(){
     } */
 
     // for in loop - obj 
-
-    /* for (obj in result){
+        /* for (obj in result){
        console.log(result[obj].area,result[obj].name.common)
     } */
     console.log(result[20].name.common+","+ result[20].region+","+result[20].subregion)
