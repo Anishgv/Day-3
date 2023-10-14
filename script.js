@@ -35,7 +35,9 @@ request.onload= function(){
         /* for (obj in result){
        console.log(result[obj].area,result[obj].name.common)
     } */
+    // To print Belgium,region , subregion
     console.log(result[20].name.common+","+ result[20].region+","+result[20].subregion)
+    // To print region , subregion,name
     // for (obj of result){
     //     console.log(obj.region+","+obj.subregion+","+obj.name.common)
     // } 
