@@ -1,0 +1,24 @@
+XMLHTTPrequest 
+step 1 : To create XHR object 
+XHR - XMLHTTPRequest
+Syntax to create new XMLHTTPRequest
+var variablename = new XMLHTTPRequest()
+new -it is a keyword used to create a object
+
+Step 2 : Opening a connection to the server
+ there are 3 parameters
+1.Method (GET,POST,PUT,DELETE)
+2. url(from where to get the data)
+3. True / False (optional)
+request.open ("GET","https://restcountries.com/v3.1/all")
+
+Step 3 :Initiating a bridge to the server / sending a connection / sending a request 
+request.send ()
+
+step4 :Server response
+onload : It is an event 
+request.onload= function(){
+    var data = request.response
+    console.log(data);
+    console.log(JSON.parse(data));
+}
