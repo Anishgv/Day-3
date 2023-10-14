@@ -16,7 +16,8 @@ Step 3 :Initiating a bridge to the server / sending a connection / sending a req
 request.send ()
 
 step4 :Server response
-onload : It is an event 
+onload : It is an event
+Anonymous Functions - A function without name is called Anonymous  
 request.onload= function(){
     var data = request.response
     console.log(data);
